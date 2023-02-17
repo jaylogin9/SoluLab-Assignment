@@ -7,13 +7,12 @@ The MongoDB Atlas database is being used to perform CRUD (Create, Read, Update, 
 ```sh
 https://github.com/jaylogin9/SoluLab-Assignment.git
 ```
-* **cd SoluLab-Assignment**
 
-* ** Open the browser and Log-in to [MongoDB Atlas](https://account.mongodb.com/account/login?nds=true)**
+* **Log-in to [MongoDB Atlas](https://account.mongodb.com/account/login?nds=true)**
 
 *  **Creating a Cluster**
 
-* **Configuring the Cluster **:- Add new user and create  username and password
+* **Configuring the Cluster**:- Add new user and create  username and password
 
 * **Getting the Connection String**
 
@@ -40,7 +39,7 @@ npm -i dotenv express mongoose nodemon
 ```sh
  "start": "nodemon index"
 ```
-* Create .env and paste the Connection String.
+* Create .env and paste the Connection String in replace of URL.
 ```sh
 MONGO_DB= url
 ```
